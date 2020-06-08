@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="593.0" prefWidth="982.0" xmlns="http://javafx.com/javafx/11.0.1" stylesheets="@../../resources/CSS_Files/CSSFile.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ViewEmployee">
+   <children>
+      <AnchorPane prefHeight="593.0" prefWidth="1099.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView fx:id="table" layoutX="131.0" layoutY="45.0" prefHeight="548.0" prefWidth="982.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="49.0" text="ID" />
+                <TableColumn fx:id="fname" prefWidth="113.0" text="First name" />
+                  <TableColumn fx:id="lname" prefWidth="115.0" text="Last name" />
+                  <TableColumn fx:id="salary" prefWidth="88.0" text="Salary" />
+                  <TableColumn fx:id="age" prefWidth="57.0" text="Age" />
+                  <TableColumn fx:id="department" prefWidth="169.0" text="Department" />
+                  <TableColumn fx:id="address" minWidth="0.0" prefWidth="207.0" text="Address" />
+                  <TableColumn fx:id="dateOfBirth" prefWidth="183.0" text="Date Of Birth" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

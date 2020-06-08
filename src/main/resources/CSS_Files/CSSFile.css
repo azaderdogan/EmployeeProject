@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: #FFBFB7B7;
+
+
+}
+
+#label {
+-fx-text-fill:cornflowerblue;
+}
+#field{
+    -fx-background-color: #0e5eff;
+    -fx-text-fill: white;
+    -fx-border-radius: 8px;
+    -fx-border-color: #FFBFB7B7;
+
+    -fx-background-radius: 8px;
+}
+#btn{
+    -fx-background-color: #0e5eff;
+    -fx-text-fill: white;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-alignment: center;
+    -fx-minor-tick-visible: true;
+    -fx-border-color: #FFBFB7B7;
+
+}
+#header{
+    -fx-font-size: 20px;
+    -fx-alignment: center;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-border-color: #FFBFB7B7;
+    -fx-background-color: #FFBFB7B7;
+}
